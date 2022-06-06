@@ -1,0 +1,16 @@
+[tool.poetry]
+authors = ["Rocky Burt <rocky.burt@gmail.com>"]
+description = ""
+name = "python-poetry"
+packages = [{include = "app.py"}]
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+quart = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
